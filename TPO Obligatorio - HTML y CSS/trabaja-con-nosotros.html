@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="Imagenes/trabaja-con-nosotros.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c09d608a8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Trabaja con Nosotros | Di Nonna.</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+          <img src="Imagenes/Logo. -.png" alt="Di Nonna.">
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn">
+          <span class="navicon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="index.html">Inicio.</a></li>
+            <li><a href="menu.html">Nuestra carta.</a></li>
+          <li><a href="sucursales.html">Sucursales.</a></li>
+          <li><a href="trabaja-con-nosotros.html">Trabaja con Nosotros.</a></li>
+        </ul>
+      </header>
+    <main class="main">
+      <h2 class="titulo">¡Trabaja con Nosotros!</h2>
+      <p id="bio">Vos tambien podes ser parte de este gran equipo. Para ello, completá el formulario con las preguntas y adjunta un curriculum en formato PDF. Un representante de RR.HH se pondrá en contacto. </p>
+
+        <div class="container-f" id="formulario">
+          <br>
+          <div class="titulo-2-f">Completa el siguiente formulario:</div>
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Nombre/s</span>
+                <input type="text" placeholder="Ingresa tu nombre/s" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Apellido/s</span>
+                <input type="text" placeholder="Ingresa tu apellido/s" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="email" placeholder="Ingresa tu email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Telefono</span>
+                <input type="tel" placeholder="Ingresa tu numero de telefono" required>
+              </div>
+              <div class="input-box" id="genero">
+                <span class="details">Genero</span>
+                <input type="radio" name="opcion" value="1"> Mujer.
+                <input type="radio" name="opcion" value="2"> Hombre.
+                <input type="radio" name="opcion" value="3"> Otro.
+              </div>
+              <div class="input-box">
+                <span class="details">Edad</span>
+                  <select id="edad" name="Edad">
+                    <option value="Rango1">Entre 18 y 25 años</option>
+                    <option value="Rango2">Entre 25 y 35 años</option>
+                    <option value="Rango3">Entre 35 y 45 años</option>
+                    <option value="Rango4">Mas de 45 años</option>
+                  </select>
+              </div>
+              <div class="input-box">
+                <span class="details">Carga tu C.V</span>
+                <input type="file" accept="application/pdf" placeholder="Elegir archivo PDF." required>
+              </div>
+              <div class="input-box">
+                <span class="details">Contanos tu experiencia.</span>
+                <textarea placeholder="Tu experencia laboral..." required name="comentario" cols="30" rows="1"></textarea>
+              </div>
+              <div class="button">
+                <input type="submit" value="Enviar.">
+              </div>
+            </div>
+          </form>
+        </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-section">
+        <div class="row">
+          <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.whatsapp.com/?lang=es"><i class="fa-brands fa-whatsapp""></i></a>
+        </div>
+        <div class="row">
+          <ul>
+            <li><a href="index.html">Inicio.</a></li>
+            <li><a href="menu.html">Menu.</a></li>
+            <li><a href="sucursales.html">Sucursales.</a></li>
+            <li><a href="trabaja-con-nosotros.html">Trabaja con Nosotros.</a></li>
+          </ul>
+          </div>
+          <div class="row">
+            <p>Delitzie di Nonna Copyright 2023 - All rights reserved || Designed By: Nazareno Taux & Julieta Solomonovici.</p>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
